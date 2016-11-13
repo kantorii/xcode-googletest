@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3427A11DD86421007C8892 /* gmock-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7E34279F1DD86421007C8892 /* gmock-all.cc */; };
+		7E3427A21DD86421007C8892 /* gmock-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7E34279F1DD86421007C8892 /* gmock-all.cc */; };
+		7E3427A51DD86661007C8892 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7E3427A41DD86661007C8892 /* gtest-all.cc */; };
+		7E3427A61DD86661007C8892 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7E3427A41DD86661007C8892 /* gtest-all.cc */; };
 		C9959FB1188F91F50031BFA5 /* ExampleObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */; };
 		C9959FB2188F91F50031BFA5 /* ExampleObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */; };
 		C9BB83E617E1FEE0008820CF /* libdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BB83D617E1FDFD008820CF /* libdemo.a */; };
 		C9C671B517E0312F00ED64D4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C671B417E0312F00ED64D4 /* main.cpp */; };
 		C9C671C817E1820400ED64D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C671C717E1820400ED64D4 /* Cocoa.framework */; };
-		C9C671ED17E1821F00ED64D4 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = C9C671EC17E1821F00ED64D4 /* gtest-all.cc */; };
 		C9C671F117E183E100ED64D4 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C671C517E1820400ED64D4 /* libgtest.a */; };
 		C9C6720E17E1864900ED64D4 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C671C517E1820400ED64D4 /* libgtest.a */; };
 		C9C6722017E1876200ED64D4 /* GoogleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9C6721D17E1876200ED64D4 /* GoogleTests.mm */; };
@@ -22,7 +25,6 @@
 		C9E7389717E205E30077AEC5 /* CounterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E7389617E205E30077AEC5 /* CounterTest.cpp */; };
 		C9E7389817E205E30077AEC5 /* CounterTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E7389617E205E30077AEC5 /* CounterTest.cpp */; };
 		C9F82110188CF70600DC1008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8210F188CF70600DC1008 /* Foundation.framework */; };
-		C9F82133188CF76000DC1008 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = C9C671EC17E1821F00ED64D4 /* gtest-all.cc */; };
 		C9F82139188CF7AB00DC1008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8210F188CF70600DC1008 /* Foundation.framework */; };
 		C9F8215A188CF7EC00DC1008 /* Counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9E7389217E205450077AEC5 /* Counter.cpp */; };
 		C9F82160188CF81C00DC1008 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F8211D188CF70700DC1008 /* XCTest.framework */; };
@@ -110,6 +112,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E34279F1DD86421007C8892 /* gmock-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gmock-all.cc"; path = "Dependencies/googlemock/src/gmock-all.cc"; sourceTree = SOURCE_ROOT; };
+		7E3427A41DD86661007C8892 /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cc"; path = "Dependencies/googletest/src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
 		C9959FB0188F91F50031BFA5 /* ExampleObjCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleObjCTest.m; sourceTree = "<group>"; };
 		C9BB83D617E1FDFD008820CF /* libdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C671B117E0312F00ED64D4 /* standalone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = standalone; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +123,6 @@
 		C9C671CA17E1820400ED64D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9C671CB17E1820400ED64D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C9C671CC17E1820400ED64D4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		C9C671EC17E1821F00ED64D4 /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "gtest-all.cc"; sourceTree = "<group>"; };
 		C9C671FA17E1854400ED64D4 /* TestBundle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBundle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C671FF17E1854400ED64D4 /* TestBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestBundle-Info.plist"; sourceTree = "<group>"; };
 		C9C6721D17E1876200ED64D4 /* GoogleTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GoogleTests.mm; sourceTree = "<group>"; };
@@ -250,7 +253,8 @@
 		C9C671C017E1811200ED64D4 /* Google Test */ = {
 			isa = PBXGroup;
 			children = (
-				C9C671EC17E1821F00ED64D4 /* gtest-all.cc */,
+				7E34279F1DD86421007C8892 /* gmock-all.cc */,
+				7E3427A41DD86661007C8892 /* gtest-all.cc */,
 			);
 			name = "Google Test";
 			path = Dependencies/gtest/src;
@@ -541,7 +545,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C671ED17E1821F00ED64D4 /* gtest-all.cc in Sources */,
+				7E3427A11DD86421007C8892 /* gmock-all.cc in Sources */,
+				7E3427A51DD86661007C8892 /* gtest-all.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,7 +564,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F82133188CF76000DC1008 /* gtest-all.cc in Sources */,
+				7E3427A21DD86421007C8892 /* gmock-all.cc in Sources */,
+				7E3427A61DD86661007C8892 /* gtest-all.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,6 +657,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -663,7 +670,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = Dependencies/gtest/include;
+				HEADER_SEARCH_PATHS = (
+					Dependencies/googletest/include,
+					Dependencies/googlemock/include,
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -688,6 +698,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -697,7 +708,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = Dependencies/gtest/include;
+				HEADER_SEARCH_PATHS = (
+					Dependencies/googletest/include,
+					Dependencies/googlemock/include,
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -721,10 +735,13 @@
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					Dependencies/gtest,
+					Dependencies/googletest,
+					Dependencies/googlemock,
 				);
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -734,10 +751,13 @@
 			buildSettings = {
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					Dependencies/gtest,
+					Dependencies/googletest,
+					Dependencies/googlemock,
 				);
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -768,7 +788,8 @@
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					Dependencies/gtest,
+					Dependencies/googletest,
+					Dependencies/googlemock,
 				);
 				PRODUCT_NAME = gtest;
 				SDKROOT = iphoneos;
@@ -781,7 +802,8 @@
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					Dependencies/gtest,
+					Dependencies/googletest,
+					Dependencies/googlemock,
 				);
 				PRODUCT_NAME = gtest;
 				SDKROOT = iphoneos;
